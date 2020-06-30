@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		ul
+		{
+			background-color:#f1f1f1;
+			box-sizing: border-box;
+			padding:10px;
+			border-radius: 10px;
+			text-align: center;
+			list-style-type: none;
+			margin-right:1000px;
+			
+		}
+		ul li button
+		{
+			font-size:30px;
+			width:50%;
+			background-color:#ccc;
+			border:1px solid#f1f1f1;
+			
+		}
+		ul li button.active {
+  background-color: black;
+}
+
+form
+{
+
+	padding:10px;
+	margin-right: 1200px;
+}
+body
+{
+	background-color: #A3E4D7;
+	margin-bottom: 100px;
+}
+.strings
+{
+ border:3px solid black;
+ padding:20px;
+ 
+
+
+}
+.events
+{
+	 border:3px solid black;
+ padding:20px;
+  border-radius: 2px;
+}
+
+
+
+
+	</style>
+
+</head>
+
+	<title>JavaScript examples</title>
+
+
+<body>
+	
+	<h1 id="h1"></h1>
+	<div class="events">
+<h2>Events in JS:</h2>
+
+<ul class="ul">
+	<li><button onclick="html()" id="b1" onmouseover="style.color='red'" onmouseout="style.color='black'">HTML</button ></li><br>
+	<li><button onclick="css()" id="b2" onmouseover="style.color='green'" onmouseout="style.color='black'">CSS</button></li><br>
+	<li><button onclick="js()" id="b3" onmouseover="style.color='blue'" onmouseout="style.color='black'">JavaScript</button></li><br>
+</ul><br><br>
+
+
+<form method="get" action="https://www.conduiraonline.com/" onsubmit="formfun()">
+	<input type="text" placeholder="Enter Name" id="fname"><br><br>
+<input type="submit" value="submit">
+</form>
+</div>
+
+<h2 id="h2"></h2>
+<p id="p"></p>
+Switch case and Control flow:
+<button onclick="controlflow()">Click here to check if the number is between 10-100</button><br><br>
+Loops:
+<button onclick="fib()">Click here see Fibanocci series</button>
+<h4 id="h4"></h4>
+<h3 id="h3"></h3>
+<div class="strings">
+	String Methods:
+	<h4>Introduction to HTML</h4>
+	<p id="p1">HTML was First developed by Tim Berners-Lee, HTML is short for Hypertext Markup Language. HTML is used to create electronic documents (called pages) that are displayed on the World Wide Web. Each page contains a series of connections to other pages called hyperlinks. Every web page you see on the Internet is written using one version of HTML code or another.
+
+HTML code ensures the proper formatting of text and images for your Internet browser. Without HTML, a browser would not know how to display text as elements or load images or other elements. HTML also provides a basic structure of the page, upon which Cascading Style Sheets are overlaid to change its appearance. One could think of HTML as the bones (structure) of a web page, and CSS as its skin (appearance).</p>
+<button onclick="split()">Click here to check the words</button></div>
+
+<script src="second.js">
+
+
+</script>
+</body>
+</html>
